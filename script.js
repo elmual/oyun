@@ -5,7 +5,7 @@ let netice;
 
 oyna.onclick = function () {
     if (ad.value == '') {
-        document.getElementById('el').innerHTML = "Adinizi daxil edin";
+        document.getElementById('el').innerHTML = "Player 1: Adinizi daxil edin";
         die();
     }
     say = Math.floor(Math.random() * 6);
@@ -23,7 +23,7 @@ oyna.onclick = function () {
 
 son.onclick = () => {
     if (ad.value == '') {
-        document.getElementById('el').innerHTML = "Adinizi daxil edin";
+        document.getElementById('el').innerHTML = "Player 1: Adinizi daxil edin";
         die();
     }
     netice = `${ad.value}, ${score} xal ile oyunu bitirdiniz`;
@@ -33,7 +33,7 @@ son.onclick = () => {
 
 oyna2.onclick = function () {
     if (ad2.value == '') {
-        document.getElementById('el').innerHTML = "Adinizi daxil edin";
+        document.getElementById('el').innerHTML = "Player 2: Adinizi daxil edin";
         die();
     }
     say = Math.floor(Math.random() * 6);
@@ -51,7 +51,7 @@ oyna2.onclick = function () {
 
 son2.onclick = () => {
     if (ad2.value == '') {
-        document.getElementById('el').innerHTML = "Adinizi daxil edin";
+        document.getElementById('el').innerHTML = "Player 2: Adinizi daxil edin";
         die();
     }
     netice = `${ad2.value}, ${score1} xal ile oyunu bitirdiniz`;
